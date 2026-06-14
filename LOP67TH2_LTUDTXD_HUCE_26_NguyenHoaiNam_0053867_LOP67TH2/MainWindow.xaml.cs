@@ -74,7 +74,7 @@ namespace LOP67TH2_LTUDTXD_HUCE_26_NguyenHoaiNam_0053867_LOP67TH2
         {
             MainFr.Content = new Internalforce();
         }
-
+#Sửa 1
         private void btn_AS_Click(object sender, RoutedEventArgs e)
         {
             MainFr.Content = new Result();
