@@ -25,7 +25,7 @@
         <Ribbon  Grid.Row="0" SelectedIndex="0">
             <RibbonTab Header=" Dữ liệu " >
                 <RibbonGroup Header="Thông số thiết kế">
-                    <RibbonButton x:Name="btn_Nhap" Label="Chiều dài ,rộng cao " LargeImageSource="/Resource/Images/Beamm.png" Click="btn_Nhap_Click"/>
+                    <RibbonButton x:Name="btn_Nhap" Label="Tiết diện " LargeImageSource="/Resource/Images/Beamm.png" Click="btn_Nhap_Click"/>
                     
                 </RibbonGroup>
                 <RibbonGroup Header="Vật liệu ">
