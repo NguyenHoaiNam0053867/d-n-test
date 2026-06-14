@@ -1,0 +1,51 @@
+﻿<Page x:Class="LOP67TH2_LTUDTXD_HUCE_26_NguyenHoaiNam_0053867_LOP67TH2.View.Internalforce"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LOP67TH2_LTUDTXD_HUCE_26_NguyenHoaiNam_0053867_LOP67TH2.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Internalforce">
+
+    <Grid>
+        <Image Stretch="Fill" Source="/Resource/Images/Background.png">
+
+        </Image>
+        <Button Content="Nhập" HorizontalAlignment="Left" Margin="41,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.721,0.963" Width="100" Height="50"/>
+        <TextBox HorizontalAlignment="Left" Margin="382,65,0,0" TextWrapping="Wrap" Text="cm
+           " VerticalAlignment="Top" Width="120" Height="50"/>
+        <Label Content="M (KNm)" HorizontalAlignment="Left" Margin="256,90,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="N (KN)" HorizontalAlignment="Left" Margin="256,139,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="2.647"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.554"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox HorizontalAlignment="Left" Margin="382,120,0,0" TextWrapping="Wrap" Text="cm                  " VerticalAlignment="Top" Width="120" Height="50"/>
+        <TextBox HorizontalAlignment="Left" Margin="382,175,0,0" TextWrapping="Wrap" Text="cm                  " VerticalAlignment="Top" Width="120" Height="50"/>
+        <Label Content="Q (KN)" HorizontalAlignment="Left" Margin="256,189,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="2.647"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.554"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox Margin="302,260,298,0" VerticalAlignment="Top">
+            <ComboBoxItem
+Content="Tiết diện 1" />
+            <ComboBoxItem
+Content="Tiết diện 2" />
+            <ComboBoxItem
+Content="Tiết diện 3" />
+        </ComboBox>
+
+    </Grid>
+</Page>

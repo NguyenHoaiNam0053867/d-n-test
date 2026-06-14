@@ -1,0 +1,98 @@
+﻿<Window x:Class="LOP67TH2_LTUDTXD_HUCE_26_NguyenHoaiNam_0053867_LOP67TH2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LOP67TH2_LTUDTXD_HUCE_26_NguyenHoaiNam_0053867_LOP67TH2" 
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="Phần mềm thiết kế dầm BTCT" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            
+            
+        </Grid.RowDefinitions>
+        <Ribbon  Grid.Row="0" SelectedIndex="0">
+            <RibbonTab Header=" Dữ liệu " >
+                <RibbonGroup Header="Thông số thiết kế">
+                    <RibbonButton x:Name="btn_Nhap" Label="Chiều dài ,rộng cao " LargeImageSource="/Resource/Images/Beamm.png" Click="btn_Nhap_Click"/>
+                    
+                </RibbonGroup>
+                <RibbonGroup Header="Vật liệu ">
+                    <RibbonButton  x:Name="btn_Macbt" Label="Mác BT" LargeImageSource="/Resource/Images/concrete.png" Click="btn_Macbt_Click"/>
+                    <RibbonButton  x:Name="btn_Thep" Label="Loại thép" LargeImageSource="/Resource/Images/steel.png" Click="btn_Thep_Click"/>
+
+             </RibbonGroup>
+                <RibbonGroup Header=" Nhập nội lực ">
+                    <RibbonButton Label="Etabs " LargeImageSource="/Resource/Images/Img.png"/>
+                    <RibbonButton  x:Name="btn_noiluc" Label="Nhập " LargeImageSource="/Resource/Images/MNQ.png" Click="btn_noiluc_Click"/>
+                </RibbonGroup>
+                <RibbonGroup >
+                    <RibbonButton x:Name="btn_back2" Label="Back" KeyTip="C" LargeImageSource="/Resource/Images/Back.png" Click="btn_back_Click"/>
+                </RibbonGroup>
+
+
+
+
+
+            </RibbonTab>
+
+            <RibbonTab Header="Thiết kế " >
+                <RibbonGroup Header="Tiết DIện">
+                    <RibbonButton x:Name="btn_DamHCN" Label="HCN" KeyTip="C" LargeImageSource="/Resource/Images/HCN.png" Click="btn_DamHCN_Click">
+                        
+                    </RibbonButton>
+                </RibbonGroup>
+                <RibbonGroup Header="Tiết DIện">
+                    <RibbonButton x:Name="btn_DamCT" Label="HCT" KeyTip="C" LargeImageSource="/Resource/Images/HCT.png" Click="btn_DamCT_Click">
+
+                    </RibbonButton>
+                </RibbonGroup>
+                <RibbonGroup >
+                    <RibbonButton x:Name="btn_back" Label="Back" KeyTip="C" LargeImageSource="/Resource/Images/Back.png" Click="btn_back_Click"/>
+                </RibbonGroup>
+
+
+            </RibbonTab>
+            <RibbonTab Header=" Thống Kê " >
+                <RibbonGroup Header="XUất kết quả ra  ">
+                    <RibbonButton Label=" Excel " LargeImageSource="/Resource/Images/Excel.png"/>
+                    <RibbonButton Label=" PDF " LargeImageSource="/Resource/Images/PDF.png"/>
+                </RibbonGroup>
+                <RibbonGroup Header="kết quả">
+                    <RibbonButton x:Name="btn_AS" Label=" AS " LargeImageSource="/Resource/Images/steel.png" Click="btn_AS_Click"/>
+                    
+                </RibbonGroup>
+                <RibbonGroup >
+                    <RibbonButton x:Name="btn_back3" Label="Back" KeyTip="C" LargeImageSource="/Resource/Images/Back.png" Click="btn_back_Click"/>
+                </RibbonGroup>
+            </RibbonTab>
+
+
+        </Ribbon>
+        <Grid Grid.Row="1">
+            <Frame x:Name="MainFr" >
+                
+            </Frame>
+            
+            
+        </Grid>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Background="#ADB2D4">
+            <Image Width="32" Source="/Resource/Icon/coment.png"/>
+            <Label Foreground="White" Content="Goi y " VerticalAlignment="Center"/>
+            
+
+        </StackPanel>
+                    
+    </Grid>
+</Window>
