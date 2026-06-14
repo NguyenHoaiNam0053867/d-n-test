@@ -29,7 +29,7 @@
                     
                 </RibbonGroup>
                 <RibbonGroup Header="Vật liệu ">
-                    <!--<RibbonButton  x:Name="btn_Macbt" Label="Mác BT" LargeImageSource="/Resource/Images/concrete.png" Click="btn_Macbt_Click"/>-->
+                    <RibbonButton  x:Name="btn_Macbt" Label="Mác BT" LargeImageSource="/Resource/Images/concrete.png" Click="btn_Macbt_Click"/>
                     <RibbonButton  x:Name="btn_Thep" Label="Loại thép" LargeImageSource="/Resource/Images/steel.png" Click="btn_Thep_Click"/>
 
              </RibbonGroup>
