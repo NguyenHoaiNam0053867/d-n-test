@@ -22,7 +22,7 @@
             
             <!--sua lan 2-->
         </Grid.RowDefinitions>
-        <Ribbon  Grid.Row="0" SelectedIndex="0">
+        <Ribbon  Grid.Row="0" SelectedIndex="2">
             <RibbonTab Header=" Dữ liệu " >
                 <RibbonGroup Header="Thông số thiết kế">
                     <RibbonButton x:Name="btn_Nhap" Label="Tiết diện " LargeImageSource="/Resource/Images/Beamm.png" Click="btn_Nhap_Click"/>
@@ -73,9 +73,9 @@
                     <RibbonButton x:Name="btn_AS" Label=" AS " LargeImageSource="/Resource/Images/steel.png" Click="btn_AS_Click"/>
                     
                 </RibbonGroup>
-                <RibbonGroup >
+                <!--<RibbonGroup >
                     <RibbonButton x:Name="btn_back3" Label="Back" KeyTip="C" LargeImageSource="/Resource/Images/Back.png" Click="btn_back_Click"/>
-                </RibbonGroup>
+                </RibbonGroup>-->
             </RibbonTab>
 
 
